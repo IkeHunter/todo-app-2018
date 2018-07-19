@@ -4,8 +4,8 @@ module.exports = function(mysql){
 	const db = mysql.createConnection({
 		host     : 'localhost',
 		user     : 'root',
-  		password : 'Password@1234',
-  		database : 'todo'
+  	password : 'Password@1234',
+  	database : 'todo'
 	});
 
 //connect to server
@@ -15,7 +15,6 @@ module.exports = function(mysql){
 		}
 		console.log('mySQL is connected');
 	});
-	
+
 	return db;
 }
-
